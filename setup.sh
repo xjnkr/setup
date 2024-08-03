@@ -7,7 +7,7 @@ echo "made /data"
 
 echo "installing docker"
 
-curl -fsSL https://get.docker.com -o get-docker.sh
+wget -O get-docker.sh https://get.docker.com
 
 echo "downloading complete"
 
