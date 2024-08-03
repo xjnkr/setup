@@ -14,7 +14,7 @@ docker compose up -d
 
 echo "finished install dockge"
 
-echo "dockge is ip:9999"
+echo "dockge is ip:5001"
 
 echo "exiting..."
 
