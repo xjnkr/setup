@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "Server setup"
 
 mkdir -p /data
