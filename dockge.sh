@@ -6,7 +6,7 @@ echo "made /opt/stacks /opt/dockge"
 
 cd /opt/dockge
 
-curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml --output compose.yaml
+wget https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml
 
 echo "downloaded compose.yml"
 
