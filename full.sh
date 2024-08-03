@@ -2,7 +2,7 @@
 
 wget raw.githubusercontent.com/r1614/setup/main/dashdot.sh
 wget raw.githubusercontent.com/r1614/setup/main/dockge.sh
-wget raw.githubusercontent.com/r1614/setup/main/dozzzle.sh
+wget raw.githubusercontent.com/r1614/setup/main/dozzle.sh
 wget raw.githubusercontent.com/r1614/setup/main/excalidraw.sh
 wget raw.githubusercontent.com/r1614/setup/main/filebrowser.sh
 wget raw.githubusercontent.com/r1614/setup/main/homarr.sh
