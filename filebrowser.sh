@@ -24,7 +24,7 @@ docker compose up -d
 
 echo "finished installing filebrowser"
 
-echo "go to ip:8083"
+echo "go to ip:8091"
 
 echo "exiting..."
 
