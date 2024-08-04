@@ -1,5 +1,9 @@
 #!/bin/bash
 
+mkdir -p /data/sh
+
+cd /data/sh
+
 wget raw.githubusercontent.com/r1614/setup/main/dashdot.sh
 wget raw.githubusercontent.com/r1614/setup/main/dockge.sh
 wget raw.githubusercontent.com/r1614/setup/main/dozzle.sh
