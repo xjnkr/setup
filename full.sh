@@ -14,6 +14,7 @@ wget raw.githubusercontent.com/r1614/setup/main/npmplus.sh
 wget raw.githubusercontent.com/r1614/setup/main/voltaserve.sh
 wget raw.githubusercontent.com/r1614/setup/main/watchtower.sh
 wget raw.githubusercontent.com/r1614/setup/main/setup.sh
+wget raw.githubusercontent.com/r1614/setup/main/delete.sh
 echo "download complete"
 chmod +x *.sh
 ./setup.sh
@@ -43,6 +44,8 @@ echo "voltaserve"
 ./watchtower.sh
 echo "--------------------------------------------------"
 echo "watchtower"
+./delete.sh
+echo "--------------------------------------------------"
 echo "finished!!!"
 echo "exit..."
 exit
