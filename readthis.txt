@@ -1,0 +1,8 @@
+dashdot is ip:3002
+dockge is ip:5001
+dozzle is ip:9999
+excalidraw is ip:5000
+filebrowser is ip:8091
+homarr is ip:7575
+homepage is ip:100
+npmplus is ip:81 and portforward 5480(http_80),8543(https_443)
