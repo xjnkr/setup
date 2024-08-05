@@ -34,6 +34,12 @@ wget raw.githubusercontent.com/r1614/setup/main/homarr.sh
 chmod +x homarr.sh
 sudo ./homarr.sh
 ```
+# **homepage**
+```bash
+wget raw.githubusercontent.com/r1614/setup/main/homepage.sh
+chmod +x homepage.sh
+sudo ./homepage.sh
+```
 # **npmplus**
 ```bash
 wget raw.githubusercontent.com/r1614/setup/main/npmplus.sh
