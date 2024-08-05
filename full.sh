@@ -19,16 +19,27 @@ wget raw.githubusercontent.com/r1614/setup/main/homepage.sh
 echo "download complete"
 chmod +x *.sh
 ./setup.sh
+clear
 ./dashdot.sh
+clear
 ./dockge.sh
+clear
 ./dozzle.sh
+clear
 ./excalidraw.sh
+clear
 ./filebrowser.sh
+clear
 ./homarr.sh
+clear
 ./homepage.sh
+clear
 ./npmplus.sh
+clear
 ./voltaserve.sh
+clear
 ./watchtower.sh
+clear
 cd /data
 wget raw.githubusercontent.com/r1614/setup/main/readthis.txt
 ./delete.sh
