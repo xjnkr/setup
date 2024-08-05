@@ -6,3 +6,4 @@ filebrowser is ip:8091
 homarr is ip:7575
 homepage is ip:100
 npmplus is ip:81 and portforward 5480(http_80),8543(https_443)
+voltaserve is ip:3000(voltaserve),8025(webmail),8082(webdav)
