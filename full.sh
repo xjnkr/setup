@@ -15,37 +15,26 @@ wget raw.githubusercontent.com/r1614/setup/main/voltaserve.sh
 wget raw.githubusercontent.com/r1614/setup/main/watchtower.sh
 wget raw.githubusercontent.com/r1614/setup/main/setup.sh
 wget raw.githubusercontent.com/r1614/setup/main/delete.sh
+wget raw.githubusercontent.com/r1614/setup/main/homepage.sh
 echo "download complete"
 chmod +x *.sh
 ./setup.sh
-echo "--------------------------------------------------"
-echo "setup"
 ./dashdot.sh
-echo "--------------------------------------------------"
-echo "dashdot"
+./dockge.sh
 ./dozzle.sh
-echo "--------------------------------------------------"
-echo "dozzle"
 ./excalidraw.sh
-echo "--------------------------------------------------"
-echo "excalidraw"
 ./filebrowser.sh
-echo "--------------------------------------------------"
-echo "filebrower"
 ./homarr.sh
-echo "--------------------------------------------------"
-echo "homarr"
+./homepage.sh
 ./npmplus.sh
-echo "--------------------------------------------------"
-echo "npmplus"
 ./voltaserve.sh
-echo "--------------------------------------------------"
-echo "voltaserve"
 ./watchtower.sh
-echo "--------------------------------------------------"
-echo "watchtower"
+cd /data
+wget raw.githubusercontent.com/r1614/setup/main/readthis.txt
 ./delete.sh
-echo "--------------------------------------------------"
-echo "finished!!!"
+clear
+echo "finished..."
+echo "please read readthis.txt"
+echo "readthis.txt is /data"
 echo "exit..."
 exit
