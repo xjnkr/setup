@@ -4,7 +4,7 @@ mkdir -p /data/homepage/config
 
 echo 'made /data/homepage/config'
 
-cd /data/homepage/config
+cd /data/homepage/
 
 wget -O docker-compose.yml https://raw.githubusercontent.com/r1614/setup/main/homepage.yml
 
