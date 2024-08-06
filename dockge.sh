@@ -1,13 +1,13 @@
 #!/bin/bash
 
-echo  _____             _              
-echo |  __ \           | |             
-echo | |  | | ___   ___| | ____ _  ___ 
-echo | |  | |/ _ \ / __| |/ / _` |/ _ \
-echo | |__| | (_) | (__|   < (_| |  __/
-echo |_____/ \___/ \___|_|\_\__, |\___|
-echo                         __/ |     
-echo                        |___/      
+echo " _____             _              "
+echo "|  __ \           | |             "
+echo "| |  | | ___   ___| | ____ _  ___ "
+echo "| |  | |/ _ \ / __| |/ / _\` |/ _ \\"
+echo "| |__| | (_) | (__|   < (_| |  __/"
+echo "|_____/ \___/ \___|_|\_\__, |\___|"
+echo "                        __/ |     "
+echo "                       |___/      "
 
 mkdir -p /opt/stacks /opt/dockge
 
@@ -15,9 +15,9 @@ echo "made /opt/stacks /opt/dockge"
 
 cd /opt/dockge
 
-wget https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml > /dev/null
+wget https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml > /dev/null 2>&1
 
-echo "downloaded compose.yml"
+echo "downloaded compose.yaml"
 
 docker compose up -d
 
