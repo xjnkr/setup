@@ -1,19 +1,19 @@
 #!/bin/bash
 
-echo   _____ ______ _______ _    _ _____  
-echo  / ____|  ____|__   __| |  | |  __ \ 
-echo | (___ | |__     | |  | |  | | |__) |
-echo  \___ \|  __|    | |  | |  | |  ___/ 
-echo  ____) | |____   | |  | |__| | |     
-echo |_____/|______|  |_|   \____/|_|     
-                                                                            
+echo " _____ ______ _______ _    _ _____  "
+echo "/ ____|  ____|__   __| |  | |  __ \ "
+echo "| (___ | |__     | |  | |  | | |__) |"
+echo " \___ \|  __|    | |  | |  | |  ___/ "
+echo " ____) | |____   | |  | |__| | |      "
+echo "|_____/|______|  |_|   \____/|_|      "
+
 mkdir -p /data
 
 echo "made /data"
 
 echo "installing docker"
 
-wget -O get-docker.sh https://get.docker.com > /dev/null
+wget -O get-docker.sh https://get.docker.com > /dev/null 2>&1
 
 echo "downloading complete"
 
