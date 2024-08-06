@@ -21,4 +21,4 @@ docker compose up -d
 
 echo "finished install homarr"
 
-exit
+exit 0
