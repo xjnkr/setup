@@ -64,3 +64,10 @@ wget raw.githubusercontent.com/r1614/setup/main/setup.sh
 chmod +x setup.sh
 sudo ./setup.sh
 ```
+# **nextcloud**
+```bash
+wget raw.githubusercontent.com/r1614/nextcloud/main/nextcloud.sh
+chmod +x nextcloud.sh
+./nextcloud.sh
+```
+
