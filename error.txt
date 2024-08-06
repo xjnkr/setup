@@ -1,0 +1,3 @@
+homarr.sh
+homepage.sh
+npmplus.sh
