@@ -1,22 +1,22 @@
 #!/bin/bash
 
-echo __      __   _ _                                
-echo \ \    / /  | | |                               
-echo  \ \  / /__ | | |_ __ _ ___  ___ _ ____   _____ 
-echo   \ \/ / _ \| | __/ _` / __|/ _ \ '__\ \ / / _ \
-echo    \  / (_) | | || (_| \__ \  __/ |   \ V /  __/
-echo     \/ \___/|_|\__\__,_|___/\___|_|    \_/ \___|
-                                                                                                
+echo "__      __   _ _                                "
+echo "\ \    / /  | | |                               "
+echo " \ \  / /__ | | |_ __ _ ___  ___ _ ____   _____"
+echo "  \ \/ / _ \| | __/ _` / __|/ _ \ '__\ \ / / _ \\"
+echo "   \  / (_) | | || (_| \__ \  __/ |   \ V /  __/"
+echo "    \/ \___/|_|\__\__,_|___/\___|_|    \_/ \___/"
+
 cd /data
 
-git clone https://github.com/kouprlabs/voltaserve.git > /dev/null
+git clone https://github.com/kouprlabs/voltaserve.git > /dev/null 2>&1
 
-echo "clone voltaserve git"
+echo "cloned voltaserve git"
 
 cd voltaserve
 
 docker compose up -d
 
-echo "finished install voltasrver"
+echo "finished install voltaserve"
 
 exit
